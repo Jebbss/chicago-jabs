@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Chicago Jabs</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+<body>
+
+<h1>How long till Chicago jabs 80% of residents twice?</h1>
+
+<table style="width:100%">
+    <tr>
+        <th>Past 7 day average daily jab rate in Chicago</th>
+        <th>Cumulative jabs to date</th>
+        <th>Source</th>
+        <th>Chicago Population</th>
+        <th>Source</th>
+    </tr>
+    <tr>
+        <td id="calculated_daily_rate"></td>
+        <td id="cumulative_doses"></td>
+        <td><a href="https://data.cityofchicago.org/Health-Human-Services/COVID-19-Daily-Vaccinations-Chicago-Residents/2vhs-cf6b" target="_blank">City of Chicago</a></td>
+        <td>2,693,976</td>
+        <td><a href="https://www.census.gov/quickfacts/fact/table/chicagocityillinois,US/PST045219" target="_blank">Census Quickfacts Chicago</a></td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <th>Total jabs needed for 80%</th>
+        <th>Jabs needed minus jabs done</th>
+        <th>Days to complete jabs</th>
+    </tr>
+    <tr>
+        <td id="total_jabs_needed">4,310,362</td>
+        <td id="jabs_needed"></td>
+        <td id="days_to_jab"></td>
+    </tr>
+</table>
+<h2>
+    At the current rate Chicago will jab 80% of residents by:
+</h2>
+<h3 id="jab_horizon"></h3>
+</body>
+</html>
