@@ -15,37 +15,45 @@ function getVaccineData() {
     })
 }
 
-function makeYAxis(dataset, w, h, padding, svg) {
+function makeYAxis(dataset, w, h, yAxisPadding, yAxisPaddingBottom, svg) {
     const yScale = d3.scaleLinear()
         .domain([0, d3.max(dataset, (d) => d)])
-        .range([h - padding, padding]);
+        .range([h - yAxisPaddingBottom, yAxisPaddingBottom]);
     const yAxis = d3.axisLeft(yScale);
     svg.append("g")
-        .attr("transform", "translate(60,0)")
-        .call(yAxis);
+        .attr("transform", "translate(" + yAxisPadding + ",0)")
+        .call(yAxis)
+        .append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 5)
+        .attr("dy", "-5.1em")
+        .attr("text-anchor", "end")
+        .attr("stroke", "black")
+        .text("7 Day Rolling Mean Jab Rate");
     return yScale;
 }
 
 function makeBarChart(dataset) {
-    const w = 500;
-    const h = 300;
-    const padding = 60;
+    const w = 600;
+    const h = 400;
+    const yAxisPaddingLeft = 60;
+    const yAxisPaddingBottom = 5;
+    const yAxisPaddingRight = 5;
     const svg = d3.select("svg")
         .attr("width", w)
         .attr("height", h);
-    const barWidth = w / dataset.length
+    const barWidth = (w - yAxisPaddingLeft - yAxisPaddingRight) / dataset.length
+    const yScale = makeYAxis(dataset, w, h, yAxisPaddingLeft, yAxisPaddingBottom, svg)
     svg.selectAll("rect")
         .data(dataset)
         .enter()
         .append("rect")
-        .attr("x", (d, i) =>  i * barWidth)
-        .attr("height", (d) => Math.round(d / 10))
-        .attr("y", (d) => h - Math.round(d / 10))
+        .attr("x", (d, i) =>  yAxisPaddingRight + yAxisPaddingLeft + (i * barWidth))
+        .attr("height", (d) => h - yScale(d) - yAxisPaddingBottom)
+        .attr("y", (d) =>  yScale(d))
         .attr("width", barWidth - 3)
         .attr("fill", "navy")
         .attr("class", "bar")
-    // makeYAxis(dataset, w, h, padding, svg)
-
 }
 
 function addDays(date, days) {

@@ -5,3 +5,7 @@ th {
 .bar:hover {
     fill: brown;
 }
+
+.bar-graph {
+    margin: 30px;
+}
