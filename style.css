@@ -1,3 +1,11 @@
 th {
     text-align: left;
 }
+
+.bar {
+    width: 5px;
+    height: 100px;
+    display: inline-block;
+    background-color: blue;
+    margin: 2px;
+}

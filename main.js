@@ -1,4 +1,5 @@
 const jabsNeeded = 4310362;
+
 function getVaccineData() {
     const Http = new XMLHttpRequest();
     const url = 'https://data.cityofchicago.org/resource/2vhs-cf6b.json';
@@ -13,19 +14,29 @@ function getVaccineData() {
         }
     })
 }
+
+function makeBarChart(dataset) {
+    var svg = d3.select("body").selectAll("div")
+        .data(dataset)
+        .enter()
+        .append("div")
+        .attr("class", "bar")
+        .style("height", (d) => Math.round(d / 10) + "px")
+}
+
 function addDays(date, days) {
     var result = new Date(date);
     result.setDate(result.getDate() + days);
     return result;
 }
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     let doses = 0;
     let cumulativeDoses = 0;
     getVaccineData().then(vaccineJson => {
         for (let i = 0; i < 7; i++) {
             doses += parseInt(vaccineJson[i]["total_doses_daily"])
-            if(i === 0){
+            if (i === 0) {
                 const cumulativeDosesElement = document.getElementById("cumulative_doses");
                 cumulativeDoses = vaccineJson[i]["total_doses_cumulative"];
                 cumulativeDosesElement.innerText = Intl.NumberFormat().format(vaccineJson[i]["total_doses_cumulative"])
@@ -44,4 +55,18 @@ document.addEventListener("DOMContentLoaded", function() {
         let jabHorizonDate = addDays(new Date(), daysToJab);
         jabHorizon.innerText = jabHorizonDate.toDateString();
     })
+
+    fetch('https://jebbss.github.io/chicago-jabs/python/rolling-mean.json')
+        .then(response => response.json())
+        .then(jsonResponse => {
+            let dataset = []
+            console.log(1)
+            for (let i = 0; i < jsonResponse.length; i++) {
+                if(isNaN(parseInt(jsonResponse[i]['days_to_complete'])))
+                    continue
+                dataset.push(parseInt(jsonResponse[i]['days_to_complete']))
+            }
+            console.log(dataset)
+            makeBarChart(dataset.reverse())
+        })
 });
