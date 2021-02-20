@@ -15,13 +15,37 @@ function getVaccineData() {
     })
 }
 
+function makeYAxis(dataset, w, h, padding, svg) {
+    const yScale = d3.scaleLinear()
+        .domain([0, d3.max(dataset, (d) => d)])
+        .range([h - padding, padding]);
+    const yAxis = d3.axisLeft(yScale);
+    svg.append("g")
+        .attr("transform", "translate(60,0)")
+        .call(yAxis);
+    return yScale;
+}
+
 function makeBarChart(dataset) {
-    var svg = d3.select("body").selectAll("div")
+    const w = 500;
+    const h = 300;
+    const padding = 60;
+    const svg = d3.select("svg")
+        .attr("width", w)
+        .attr("height", h);
+    const barWidth = w / dataset.length
+    svg.selectAll("rect")
         .data(dataset)
         .enter()
-        .append("div")
+        .append("rect")
+        .attr("x", (d, i) =>  i * barWidth)
+        .attr("height", (d) => Math.round(d / 10))
+        .attr("y", (d) => h - Math.round(d / 10))
+        .attr("width", barWidth - 3)
+        .attr("fill", "navy")
         .attr("class", "bar")
-        .style("height", (d) => Math.round(d / 10) + "px")
+    // makeYAxis(dataset, w, h, padding, svg)
+
 }
 
 function addDays(date, days) {
