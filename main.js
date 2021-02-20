@@ -26,10 +26,10 @@ function makeYAxis(dataset, w, h, yAxisPadding, yAxisPaddingBottom, svg) {
         .append("text")
         .attr("transform", "rotate(-90)")
         .attr("y", 5)
-        .attr("dy", "-5.1em")
+        .attr("dy", "-4.5em")
         .attr("text-anchor", "end")
         .attr("stroke", "black")
-        .text("7 Day Rolling Mean Jab Rate");
+        .text("Days to jab 80% of Chicago residents");
     return yScale;
 }
 
