@@ -17,7 +17,7 @@ function getVaccineData() {
 
 function makeYAxis(dataset, w, h, yAxisPadding, yAxisPaddingBottom, svg) {
     const yScale = d3.scaleLinear()
-        .domain([0, d3.max(dataset, (d) => d)])
+        .domain([0, d3.max(dataset, (d) => d.days)])
         .range([h - yAxisPaddingBottom, yAxisPaddingBottom]);
     const yAxis = d3.axisLeft(yScale);
     svg.append("g")
@@ -53,8 +53,8 @@ function makeBarChart(dataset) {
         .enter()
         .append("rect")
         .attr("x", (d, i) =>  yAxisPaddingRight + yAxisPaddingLeft + (i * barWidth))
-        .attr("height", (d) => h - yScale(d) - yAxisPaddingBottom)
-        .attr("y", (d) =>  yScale(d))
+        .attr("height", (d) => h - yScale(d.days) - yAxisPaddingBottom)
+        .attr("y", (d) =>  yScale(d.days))
         .attr("width", barWidth - 3)
         .attr("fill", "navy")
         .attr("class", "bar")
@@ -62,7 +62,7 @@ function makeBarChart(dataset) {
             div.transition()
                 .duration(200)
                 .style("opacity", .9);
-            div.html(d + " days")
+            div.html(d.days  + " days <br/>"  + d.date)
                 .style("left", (d3.event.pageX) + "px")
                 .style("top", (d3.event.pageY - 28) + "px");
         })
@@ -76,6 +76,12 @@ function makeBarChart(dataset) {
 function addDays(date, days) {
     var result = new Date(date);
     result.setDate(result.getDate() + days);
+    return result;
+}
+
+function subtractDays(date, days) {
+    var result = new Date(date);
+    result.setDate(result.getDate() - days);
     return result;
 }
 
@@ -109,13 +115,14 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(response => response.json())
         .then(jsonResponse => {
             let dataset = []
-            console.log(1)
             for (let i = 0; i < jsonResponse.length; i++) {
+                const data = {}
                 if(isNaN(parseInt(jsonResponse[i]['days_to_complete'])))
                     continue
-                dataset.push(parseInt(jsonResponse[i]['days_to_complete']))
+                data['days'] = parseInt(jsonResponse[i]['days_to_complete'])
+                data['date'] = addDays(new Date(parseInt(jsonResponse[i]['date'])), 1).toLocaleDateString()
+                dataset.push(data)
             }
-            console.log(dataset)
             makeBarChart(dataset.reverse())
         })
 });
