@@ -44,6 +44,10 @@ function makeBarChart(dataset) {
         .attr("height", h);
     const barWidth = (w - yAxisPaddingLeft - yAxisPaddingRight) / dataset.length
     const yScale = makeYAxis(dataset, w, h, yAxisPaddingLeft, yAxisPaddingBottom, svg)
+    var div = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
+
     svg.selectAll("rect")
         .data(dataset)
         .enter()
@@ -54,6 +58,19 @@ function makeBarChart(dataset) {
         .attr("width", barWidth - 3)
         .attr("fill", "navy")
         .attr("class", "bar")
+        .on("mouseover", function(d) {
+            div.transition()
+                .duration(200)
+                .style("opacity", .9);
+            div.html(d + " days")
+                .style("left", (d3.event.pageX) + "px")
+                .style("top", (d3.event.pageY - 28) + "px");
+        })
+        .on("mouseout", function(d) {
+            div.transition()
+                .duration(500)
+                .style("opacity", 0);
+        });
 }
 
 function addDays(date, days) {
