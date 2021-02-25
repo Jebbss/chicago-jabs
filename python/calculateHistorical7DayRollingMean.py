@@ -15,6 +15,8 @@ def calculateHistorical7DayRollingMeanJabs():
     df['days_to_complete'] = (4310362 - df['total_doses_cumulative']) / df['daily_doses_rolling']
     df['days_to_complete'] = df['days_to_complete'].values.round().astype(int)
 
+    df['date'] = df['date'].dt.strftime('%m-%d-%Y')
+
     df = df[fieldsOfInterest]
     df = df.reindex(index=df.index[::-1])
     df = df[df.select_dtypes(include=[np.number]).ge(0).all(1)]

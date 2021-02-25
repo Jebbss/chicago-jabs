@@ -17,7 +17,7 @@ function getVaccineData() {
 
 function makeYAxis(dataset, w, h, yAxisPadding, yAxisPaddingBottom, svg) {
     const yScale = d3.scaleLinear()
-        .domain([0, d3.max(dataset, (d) => d.days)])
+        .domain([0, d3.max(dataset, (d) => d.days_to_complete)])
         .range([h - yAxisPaddingBottom, yAxisPaddingBottom]);
     const yAxis = d3.axisLeft(yScale);
     svg.append("g")
@@ -44,7 +44,7 @@ function makeBarChart(dataset) {
         .attr("height", h);
     const barWidth = (w - yAxisPaddingLeft - yAxisPaddingRight) / dataset.length
     const yScale = makeYAxis(dataset, w, h, yAxisPaddingLeft, yAxisPaddingBottom, svg)
-    var div = d3.select("body").append("div")
+    const div = d3.select("body").append("div")
         .attr("class", "tooltip")
         .style("opacity", 0);
 
@@ -53,8 +53,8 @@ function makeBarChart(dataset) {
         .enter()
         .append("rect")
         .attr("x", (d, i) =>  yAxisPaddingRight + yAxisPaddingLeft + (i * barWidth))
-        .attr("height", (d) => h - yScale(d.days) - yAxisPaddingBottom)
-        .attr("y", (d) =>  yScale(d.days))
+        .attr("height", (d) => h - yScale(d.days_to_complete) - yAxisPaddingBottom)
+        .attr("y", (d) =>  yScale(d.days_to_complete))
         .attr("width", barWidth - 3)
         .attr("fill", "navy")
         .attr("class", "bar")
@@ -62,11 +62,11 @@ function makeBarChart(dataset) {
             div.transition()
                 .duration(200)
                 .style("opacity", .9);
-            div.html(d.days  + " days <br/>"  + d.date)
+            div.html(d.days_to_complete  + " days <br/>"  + d.date)
                 .style("left", (d3.event.pageX) + "px")
                 .style("top", (d3.event.pageY - 28) + "px");
         })
-        .on("mouseout", function(d) {
+        .on("mouseout", function() {
             div.transition()
                 .duration(500)
                 .style("opacity", 0);
@@ -74,14 +74,8 @@ function makeBarChart(dataset) {
 }
 
 function addDays(date, days) {
-    var result = new Date(date);
+    let result = new Date(date);
     result.setDate(result.getDate() + days);
-    return result;
-}
-
-function subtractDays(date, days) {
-    var result = new Date(date);
-    result.setDate(result.getDate() - days);
     return result;
 }
 
@@ -114,15 +108,6 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch('https://jebbss.github.io/chicago-jabs/python/rolling-mean.json')
         .then(response => response.json())
         .then(jsonResponse => {
-            let dataset = []
-            for (let i = 0; i < jsonResponse.length; i++) {
-                const data = {}
-                if(isNaN(parseInt(jsonResponse[i]['days_to_complete'])))
-                    continue
-                data['days'] = parseInt(jsonResponse[i]['days_to_complete'])
-                data['date'] = addDays(new Date(parseInt(jsonResponse[i]['date'])), 1).toLocaleDateString()
-                dataset.push(data)
-            }
-            makeBarChart(dataset.reverse())
+            makeBarChart(jsonResponse.reverse())
         })
 });
