@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import os
 def calculateHistorical7DayRollingMeanJabs():
     fieldsOfInterest = ['total_doses_daily', 'date', 'daily_doses_rolling', 'days_to_complete']
@@ -16,6 +17,7 @@ def calculateHistorical7DayRollingMeanJabs():
 
     df = df[fieldsOfInterest]
     df = df.reindex(index=df.index[::-1])
+    df = df[df.select_dtypes(include=[np.number]).ge(0).all(1)]
     df.to_json(path_or_buf='rolling-mean.json', orient='records')
 
 if __name__ == "__main__":
