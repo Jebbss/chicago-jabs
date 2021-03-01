@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const jabsPending = jabsNeeded - cumulativeDoses;
         jabsNeededElement.innerText = Intl.NumberFormat().format(jabsPending);
         const daysToJabElement = document.getElementById("days_to_jab");
-        let daysToJab = Math.round(jabsNeeded / dailyRate);
+        let daysToJab = Math.round(jabsPending / dailyRate);
         daysToJabElement.innerText = Intl.NumberFormat().format(daysToJab);
         const jabHorizon = document.getElementById("jab_horizon");
         let jabHorizonDate = addDays(new Date(), daysToJab);
