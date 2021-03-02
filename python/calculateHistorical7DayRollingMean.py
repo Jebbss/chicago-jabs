@@ -1,6 +1,13 @@
 import pandas as pd
 import numpy as np
 import os
+
+def findDayWithMostDoses(df):
+    data = df[df.total_doses_daily == df['total_doses_daily'].max()]
+    data = data[['total_doses_daily', 'date']]
+    data['date'] = data['date'].dt.strftime('%m-%d-%Y')
+    data.to_json(path_or_buf='record-jab-day.json', orient='records')
+
 def calculateHistorical7DayRollingMeanJabs():
     fieldsOfInterest = ['total_doses_daily', 'date', 'daily_doses_rolling', 'days_to_complete']
     jsonFileNamePath = 'chicago-jab-data.json'
@@ -9,7 +16,7 @@ def calculateHistorical7DayRollingMeanJabs():
         return
     df = pd.read_json(jsonFileNamePath)
     df = df.reindex(index=df.index[::-1])
-
+    findDayWithMostDoses(df)
     df['daily_doses_rolling'] = df['total_doses_daily'].rolling(7).mean().values.round().astype(int)
 
     df['days_to_complete'] = (4310362 - df['total_doses_cumulative']) / df['daily_doses_rolling']
