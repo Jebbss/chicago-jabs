@@ -34,7 +34,7 @@ function makeYAxis(dataset, w, h, yAxisPadding, yAxisPaddingBottom, svg) {
 }
 
 function makeBarChart(dataset) {
-    const w = 600;
+    const w = dataset.length * 8;
     const h = 400;
     const yAxisPaddingLeft = 60;
     const yAxisPaddingBottom = 5;
