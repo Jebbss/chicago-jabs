@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(jsonResponse => {
             let json = []
             let responseLength = Object.keys(jsonResponse).length
-            for(let i = responseLength - 1; i > responseLength - 101; i--){
+            for(let i = responseLength - 101; i < responseLength - 1; i++){
                 json.push(jsonResponse[i])
             }
             makeBarChart(json)
