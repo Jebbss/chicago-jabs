@@ -109,6 +109,11 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch('https://jebbss.github.io/chicago-jabs/python/rolling-mean.json')
         .then(response => response.json())
         .then(jsonResponse => {
-            makeBarChart(jsonResponse.reverse())
+            let json = []
+            let responseLength = Object.keys(jsonResponse).length
+            for(let i = responseLength - 1; i > responseLength - 101; i--){
+                json.push(jsonResponse[i])
+            }
+            makeBarChart(json)
         })
 });
