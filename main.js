@@ -83,6 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let doses = 0;
     let cumulativeDoses = 0;
     getVaccineData().then(vaccineJson => {
+        vaccineJson = vaccineJson.reverse()
         for (let i = 0; i < 7; i++) {
             doses += parseInt(vaccineJson[i]["total_doses_daily"])
             if (i === 0) {
