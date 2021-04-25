@@ -1,1 +1,746 @@
-[{"total_doses_daily":15,"date":"12-15-2020","daily_doses_rolling":2375,"days_to_complete":1815},{"total_doses_daily":155,"date":"12-16-2020","daily_doses_rolling":2895,"days_to_complete":1489},{"total_doses_daily":1988,"date":"12-17-2020","daily_doses_rolling":3270,"days_to_complete":1317},{"total_doses_daily":5721,"date":"12-18-2020","daily_doses_rolling":3125,"days_to_complete":1377},{"total_doses_daily":3433,"date":"12-19-2020","daily_doses_rolling":2308,"days_to_complete":1863},{"total_doses_daily":934,"date":"12-20-2020","daily_doses_rolling":1887,"days_to_complete":2278},{"total_doses_daily":4381,"date":"12-21-2020","daily_doses_rolling":1755,"days_to_complete":2447},{"total_doses_daily":3650,"date":"12-22-2020","daily_doses_rolling":1458,"days_to_complete":2942},{"total_doses_daily":2786,"date":"12-23-2020","daily_doses_rolling":1509,"days_to_complete":2841},{"total_doses_daily":968,"date":"12-24-2020","daily_doses_rolling":1820,"days_to_complete":2355},{"total_doses_daily":3,"date":"12-25-2020","daily_doses_rolling":1963,"days_to_complete":2184},{"total_doses_daily":484,"date":"12-26-2020","daily_doses_rolling":1986,"days_to_complete":2158},{"total_doses_daily":10,"date":"12-27-2020","daily_doses_rolling":2128,"days_to_complete":2014},{"total_doses_daily":2302,"date":"12-28-2020","daily_doses_rolling":2285,"days_to_complete":1875},{"total_doses_daily":4012,"date":"12-29-2020","daily_doses_rolling":2473,"days_to_complete":1730},{"total_doses_daily":4959,"date":"12-30-2020","daily_doses_rolling":2549,"days_to_complete":1677},{"total_doses_daily":1972,"date":"12-31-2020","daily_doses_rolling":2403,"days_to_complete":1778},{"total_doses_daily":165,"date":"01-01-2021","daily_doses_rolling":2972,"days_to_complete":1438},{"total_doses_daily":1477,"date":"01-02-2021","daily_doses_rolling":4221,"days_to_complete":1012},{"total_doses_daily":1105,"date":"01-03-2021","daily_doses_rolling":4603,"days_to_complete":928},{"total_doses_daily":3620,"date":"01-04-2021","daily_doses_rolling":4647,"days_to_complete":918},{"total_doses_daily":4542,"date":"01-05-2021","daily_doses_rolling":4958,"days_to_complete":860},{"total_doses_daily":3938,"date":"01-06-2021","daily_doses_rolling":5287,"days_to_complete":805},{"total_doses_daily":5956,"date":"01-07-2021","daily_doses_rolling":5680,"days_to_complete":749},{"total_doses_daily":8908,"date":"01-08-2021","daily_doses_rolling":5513,"days_to_complete":770},{"total_doses_daily":4150,"date":"01-09-2021","daily_doses_rolling":4873,"days_to_complete":870},{"total_doses_daily":1417,"date":"01-10-2021","daily_doses_rolling":4723,"days_to_complete":897},{"total_doses_daily":5792,"date":"01-11-2021","daily_doses_rolling":4704,"days_to_complete":900},{"total_doses_daily":6847,"date":"01-12-2021","daily_doses_rolling":4503,"days_to_complete":938},{"total_doses_daily":6690,"date":"01-13-2021","daily_doses_rolling":4389,"days_to_complete":961},{"total_doses_daily":4789,"date":"01-14-2021","daily_doses_rolling":4597,"days_to_complete":917},{"total_doses_daily":4429,"date":"01-15-2021","daily_doses_rolling":5425,"days_to_complete":776},{"total_doses_daily":3094,"date":"01-16-2021","daily_doses_rolling":6180,"days_to_complete":681},{"total_doses_daily":1286,"date":"01-17-2021","daily_doses_rolling":6446,"days_to_complete":652},{"total_doses_daily":4384,"date":"01-18-2021","daily_doses_rolling":6508,"days_to_complete":645},{"total_doses_daily":6048,"date":"01-19-2021","daily_doses_rolling":7056,"days_to_complete":594},{"total_doses_daily":8150,"date":"01-20-2021","daily_doses_rolling":7582,"days_to_complete":552},{"total_doses_daily":10586,"date":"01-21-2021","daily_doses_rolling":8072,"days_to_complete":517},{"total_doses_daily":9712,"date":"01-22-2021","daily_doses_rolling":8286,"days_to_complete":503},{"total_doses_daily":4955,"date":"01-23-2021","daily_doses_rolling":8662,"days_to_complete":480},{"total_doses_daily":1724,"date":"01-24-2021","daily_doses_rolling":8917,"days_to_complete":466},{"total_doses_daily":8214,"date":"01-25-2021","daily_doses_rolling":9051,"days_to_complete":459},{"total_doses_daily":9731,"date":"01-26-2021","daily_doses_rolling":9045,"days_to_complete":458},{"total_doses_daily":11584,"date":"01-27-2021","daily_doses_rolling":9427,"days_to_complete":438},{"total_doses_daily":12084,"date":"01-28-2021","daily_doses_rolling":9647,"days_to_complete":427},{"total_doses_daily":12344,"date":"01-29-2021","daily_doses_rolling":10142,"days_to_complete":405},{"total_doses_daily":6740,"date":"01-30-2021","daily_doses_rolling":10788,"days_to_complete":380},{"total_doses_daily":2661,"date":"01-31-2021","daily_doses_rolling":11129,"days_to_complete":368},{"total_doses_daily":8172,"date":"02-01-2021","daily_doses_rolling":11206,"days_to_complete":365},{"total_doses_daily":12406,"date":"02-02-2021","daily_doses_rolling":11474,"days_to_complete":355},{"total_doses_daily":13123,"date":"02-03-2021","daily_doses_rolling":11362,"days_to_complete":357},{"total_doses_daily":15547,"date":"02-04-2021","daily_doses_rolling":11846,"days_to_complete":342},{"total_doses_daily":16865,"date":"02-05-2021","daily_doses_rolling":12267,"days_to_complete":328},{"total_doses_daily":9130,"date":"02-06-2021","daily_doses_rolling":12292,"days_to_complete":327},{"total_doses_daily":3196,"date":"02-07-2021","daily_doses_rolling":12681,"days_to_complete":317},{"total_doses_daily":10053,"date":"02-08-2021","daily_doses_rolling":12741,"days_to_complete":314},{"total_doses_daily":11617,"date":"02-09-2021","daily_doses_rolling":12504,"days_to_complete":320},{"total_doses_daily":16514,"date":"02-10-2021","daily_doses_rolling":11993,"days_to_complete":332},{"total_doses_daily":18494,"date":"02-11-2021","daily_doses_rolling":11487,"days_to_complete":345},{"total_doses_daily":17041,"date":"02-12-2021","daily_doses_rolling":10991,"days_to_complete":359},{"total_doses_daily":11852,"date":"02-13-2021","daily_doses_rolling":10632,"days_to_complete":370},{"total_doses_daily":3614,"date":"02-14-2021","daily_doses_rolling":10195,"days_to_complete":385},{"total_doses_daily":8399,"date":"02-15-2021","daily_doses_rolling":10216,"days_to_complete":384},{"total_doses_daily":8039,"date":"02-16-2021","daily_doses_rolling":10579,"days_to_complete":370},{"total_doses_daily":12969,"date":"02-17-2021","daily_doses_rolling":11557,"days_to_complete":337},{"total_doses_daily":15024,"date":"02-18-2021","daily_doses_rolling":11992,"days_to_complete":324},{"total_doses_daily":14530,"date":"02-19-2021","daily_doses_rolling":12541,"days_to_complete":308},{"total_doses_daily":8792,"date":"02-20-2021","daily_doses_rolling":13398,"days_to_complete":288},{"total_doses_daily":3762,"date":"02-21-2021","daily_doses_rolling":14395,"days_to_complete":268},{"total_doses_daily":10935,"date":"02-22-2021","daily_doses_rolling":14837,"days_to_complete":259},{"total_doses_daily":14886,"date":"02-23-2021","daily_doses_rolling":15158,"days_to_complete":253},{"total_doses_daily":16015,"date":"02-24-2021","daily_doses_rolling":15250,"days_to_complete":250},{"total_doses_daily":18865,"date":"02-25-2021","daily_doses_rolling":15688,"days_to_complete":242},{"total_doses_daily":20533,"date":"02-26-2021","daily_doses_rolling":15687,"days_to_complete":241},{"total_doses_daily":15772,"date":"02-27-2021","daily_doses_rolling":15650,"days_to_complete":240},{"total_doses_daily":6850,"date":"02-28-2021","daily_doses_rolling":15441,"days_to_complete":243},{"total_doses_daily":13187,"date":"03-01-2021","daily_doses_rolling":15298,"days_to_complete":244},{"total_doses_daily":15527,"date":"03-02-2021","daily_doses_rolling":15418,"days_to_complete":242},{"total_doses_daily":19083,"date":"03-03-2021","daily_doses_rolling":15761,"days_to_complete":235},{"total_doses_daily":18860,"date":"03-04-2021","daily_doses_rolling":16266,"days_to_complete":227},{"total_doses_daily":20272,"date":"03-05-2021","daily_doses_rolling":17021,"days_to_complete":215},{"total_doses_daily":14311,"date":"03-06-2021","daily_doses_rolling":18123,"days_to_complete":201},{"total_doses_daily":5844,"date":"03-07-2021","daily_doses_rolling":18944,"days_to_complete":192},{"total_doses_daily":14029,"date":"03-08-2021","daily_doses_rolling":19584,"days_to_complete":185},{"total_doses_daily":17928,"date":"03-09-2021","daily_doses_rolling":20412,"days_to_complete":177},{"total_doses_daily":22617,"date":"03-10-2021","daily_doses_rolling":21136,"days_to_complete":170},{"total_doses_daily":24149,"date":"03-11-2021","daily_doses_rolling":21271,"days_to_complete":168},{"total_doses_daily":27982,"date":"03-12-2021","daily_doses_rolling":21394,"days_to_complete":165},{"total_doses_daily":20060,"date":"03-13-2021","daily_doses_rolling":21181,"days_to_complete":166},{"total_doses_daily":10325,"date":"03-14-2021","daily_doses_rolling":20966,"days_to_complete":167},{"total_doses_daily":19823,"date":"03-15-2021","daily_doses_rolling":21254,"days_to_complete":164},{"total_doses_daily":22998,"date":"03-16-2021","daily_doses_rolling":21466,"days_to_complete":161},{"total_doses_daily":23562,"date":"03-17-2021","daily_doses_rolling":21763,"days_to_complete":158},{"total_doses_daily":25011,"date":"03-18-2021","daily_doses_rolling":22037,"days_to_complete":155},{"total_doses_daily":26491,"date":"03-19-2021","daily_doses_rolling":22551,"days_to_complete":150},{"total_doses_daily":18554,"date":"03-20-2021","daily_doses_rolling":23259,"days_to_complete":145},{"total_doses_daily":12340,"date":"03-21-2021","daily_doses_rolling":24052,"days_to_complete":140},{"total_doses_daily":21304,"date":"03-22-2021","daily_doses_rolling":24096,"days_to_complete":139},{"total_doses_daily":25081,"date":"03-23-2021","daily_doses_rolling":24926,"days_to_complete":133},{"total_doses_daily":25477,"date":"03-24-2021","daily_doses_rolling":25682,"days_to_complete":128},{"total_doses_daily":28607,"date":"03-25-2021","daily_doses_rolling":26222,"days_to_complete":124},{"total_doses_daily":31452,"date":"03-26-2021","daily_doses_rolling":26102,"days_to_complete":124},{"total_doses_daily":24104,"date":"03-27-2021","daily_doses_rolling":26422,"days_to_complete":121},{"total_doses_daily":12646,"date":"03-28-2021","daily_doses_rolling":26490,"days_to_complete":120},{"total_doses_daily":27114,"date":"03-29-2021","daily_doses_rolling":26008,"days_to_complete":122},{"total_doses_daily":30376,"date":"03-30-2021","daily_doses_rolling":26293,"days_to_complete":119},{"total_doses_daily":29253,"date":"03-31-2021","daily_doses_rolling":27540,"days_to_complete":113},{"total_doses_daily":27770,"date":"04-01-2021","daily_doses_rolling":28238,"days_to_complete":109},{"total_doses_daily":33694,"date":"04-02-2021","daily_doses_rolling":29211,"days_to_complete":104},{"total_doses_daily":24579,"date":"04-03-2021","daily_doses_rolling":29628,"days_to_complete":102},{"total_doses_daily":9273,"date":"04-04-2021","daily_doses_rolling":30105,"days_to_complete":100},{"total_doses_daily":29108,"date":"04-05-2021","daily_doses_rolling":30921,"days_to_complete":96},{"total_doses_daily":39100,"date":"04-06-2021","daily_doses_rolling":30754,"days_to_complete":96},{"total_doses_daily":34144,"date":"04-07-2021","daily_doses_rolling":29683,"days_to_complete":98},{"total_doses_daily":34579,"date":"04-08-2021","daily_doses_rolling":29073,"days_to_complete":99},{"total_doses_daily":36613,"date":"04-09-2021","daily_doses_rolling":28762,"days_to_complete":99},{"total_doses_daily":27915,"date":"04-10-2021","daily_doses_rolling":27909,"days_to_complete":101},{"total_doses_daily":14990,"date":"04-11-2021","daily_doses_rolling":27594,"days_to_complete":101},{"total_doses_daily":27940,"date":"04-12-2021","daily_doses_rolling":27217,"days_to_complete":102},{"total_doses_daily":31597,"date":"04-13-2021","daily_doses_rolling":26949,"days_to_complete":101},{"total_doses_daily":29874,"date":"04-14-2021","daily_doses_rolling":25136,"days_to_complete":108}]
+[
+  {
+    "total_doses_daily": 19289,
+    "date": "04-23-2021",
+    "daily_doses_rolling": 24135,
+    "days_to_complete": 102
+  },
+  {
+    "total_doses_daily": 27975,
+    "date": "04-22-2021",
+    "daily_doses_rolling": 25798,
+    "days_to_complete": 96
+  },
+  {
+    "total_doses_daily": 26461,
+    "date": "04-21-2021",
+    "daily_doses_rolling": 26500,
+    "days_to_complete": 95
+  },
+  {
+    "total_doses_daily": 29776,
+    "date": "04-20-2021",
+    "daily_doses_rolling": 27053,
+    "days_to_complete": 94
+  },
+  {
+    "total_doses_daily": 27025,
+    "date": "04-19-2021",
+    "daily_doses_rolling": 27382,
+    "days_to_complete": 94
+  },
+  {
+    "total_doses_daily": 12459,
+    "date": "04-18-2021",
+    "daily_doses_rolling": 27545,
+    "days_to_complete": 94
+  },
+  {
+    "total_doses_daily": 25962,
+    "date": "04-17-2021",
+    "daily_doses_rolling": 27909,
+    "days_to_complete": 93
+  },
+  {
+    "total_doses_daily": 30925,
+    "date": "04-16-2021",
+    "daily_doses_rolling": 28198,
+    "days_to_complete": 93
+  },
+  {
+    "total_doses_daily": 32892,
+    "date": "04-15-2021",
+    "daily_doses_rolling": 29024,
+    "days_to_complete": 92
+  },
+  {
+    "total_doses_daily": 30334,
+    "date": "04-14-2021",
+    "daily_doses_rolling": 29271,
+    "days_to_complete": 92
+  },
+  {
+    "total_doses_daily": 32075,
+    "date": "04-13-2021",
+    "daily_doses_rolling": 29838,
+    "days_to_complete": 91
+  },
+  {
+    "total_doses_daily": 28169,
+    "date": "04-12-2021",
+    "daily_doses_rolling": 30860,
+    "days_to_complete": 89
+  },
+  {
+    "total_doses_daily": 15005,
+    "date": "04-11-2021",
+    "daily_doses_rolling": 31001,
+    "days_to_complete": 90
+  },
+  {
+    "total_doses_daily": 27987,
+    "date": "04-10-2021",
+    "daily_doses_rolling": 30183,
+    "days_to_complete": 93
+  },
+  {
+    "total_doses_daily": 36705,
+    "date": "04-09-2021",
+    "daily_doses_rolling": 29717,
+    "days_to_complete": 95
+  },
+  {
+    "total_doses_daily": 34623,
+    "date": "04-08-2021",
+    "daily_doses_rolling": 29296,
+    "days_to_complete": 98
+  },
+  {
+    "total_doses_daily": 34302,
+    "date": "04-07-2021",
+    "daily_doses_rolling": 28326,
+    "days_to_complete": 103
+  },
+  {
+    "total_doses_daily": 39232,
+    "date": "04-06-2021",
+    "daily_doses_rolling": 27618,
+    "days_to_complete": 106
+  },
+  {
+    "total_doses_daily": 29154,
+    "date": "04-05-2021",
+    "daily_doses_rolling": 26369,
+    "days_to_complete": 113
+  },
+  {
+    "total_doses_daily": 9279,
+    "date": "04-04-2021",
+    "daily_doses_rolling": 26084,
+    "days_to_complete": 115
+  },
+  {
+    "total_doses_daily": 24721,
+    "date": "04-03-2021",
+    "daily_doses_rolling": 26565,
+    "days_to_complete": 114
+  },
+  {
+    "total_doses_daily": 33762,
+    "date": "04-02-2021",
+    "daily_doses_rolling": 26479,
+    "days_to_complete": 115
+  },
+  {
+    "total_doses_daily": 27829,
+    "date": "04-01-2021",
+    "daily_doses_rolling": 26154,
+    "days_to_complete": 118
+  },
+  {
+    "total_doses_daily": 29350,
+    "date": "03-31-2021",
+    "daily_doses_rolling": 26280,
+    "days_to_complete": 118
+  },
+  {
+    "total_doses_daily": 30485,
+    "date": "03-30-2021",
+    "daily_doses_rolling": 25741,
+    "days_to_complete": 122
+  },
+  {
+    "total_doses_daily": 27161,
+    "date": "03-29-2021",
+    "daily_doses_rolling": 24984,
+    "days_to_complete": 127
+  },
+  {
+    "total_doses_daily": 12648,
+    "date": "03-28-2021",
+    "daily_doses_rolling": 24158,
+    "days_to_complete": 132
+  },
+  {
+    "total_doses_daily": 24119,
+    "date": "03-27-2021",
+    "daily_doses_rolling": 24116,
+    "days_to_complete": 133
+  },
+  {
+    "total_doses_daily": 31488,
+    "date": "03-26-2021",
+    "daily_doses_rolling": 23322,
+    "days_to_complete": 138
+  },
+  {
+    "total_doses_daily": 28711,
+    "date": "03-25-2021",
+    "daily_doses_rolling": 22618,
+    "days_to_complete": 144
+  },
+  {
+    "total_doses_daily": 25572,
+    "date": "03-24-2021",
+    "daily_doses_rolling": 22093,
+    "days_to_complete": 149
+  },
+  {
+    "total_doses_daily": 25192,
+    "date": "03-23-2021",
+    "daily_doses_rolling": 21809,
+    "days_to_complete": 152
+  },
+  {
+    "total_doses_daily": 21375,
+    "date": "03-22-2021",
+    "daily_doses_rolling": 21498,
+    "days_to_complete": 155
+  },
+  {
+    "total_doses_daily": 12352,
+    "date": "03-21-2021",
+    "daily_doses_rolling": 21279,
+    "days_to_complete": 158
+  },
+  {
+    "total_doses_daily": 18562,
+    "date": "03-20-2021",
+    "daily_doses_rolling": 20991,
+    "days_to_complete": 161
+  },
+  {
+    "total_doses_daily": 26561,
+    "date": "03-19-2021",
+    "daily_doses_rolling": 21206,
+    "days_to_complete": 160
+  },
+  {
+    "total_doses_daily": 25034,
+    "date": "03-18-2021",
+    "daily_doses_rolling": 21411,
+    "days_to_complete": 160
+  },
+  {
+    "total_doses_daily": 23590,
+    "date": "03-17-2021",
+    "daily_doses_rolling": 21289,
+    "days_to_complete": 162
+  },
+  {
+    "total_doses_daily": 23010,
+    "date": "03-16-2021",
+    "daily_doses_rolling": 21152,
+    "days_to_complete": 164
+  },
+  {
+    "total_doses_daily": 19846,
+    "date": "03-15-2021",
+    "daily_doses_rolling": 20427,
+    "days_to_complete": 171
+  },
+  {
+    "total_doses_daily": 10333,
+    "date": "03-14-2021",
+    "daily_doses_rolling": 19598,
+    "days_to_complete": 179
+  },
+  {
+    "total_doses_daily": 20069,
+    "date": "03-13-2021",
+    "daily_doses_rolling": 18958,
+    "days_to_complete": 186
+  },
+  {
+    "total_doses_daily": 27994,
+    "date": "03-12-2021",
+    "daily_doses_rolling": 18137,
+    "days_to_complete": 195
+  },
+  {
+    "total_doses_daily": 24181,
+    "date": "03-11-2021",
+    "daily_doses_rolling": 17047,
+    "days_to_complete": 209
+  },
+  {
+    "total_doses_daily": 22631,
+    "date": "03-10-2021",
+    "daily_doses_rolling": 16311,
+    "days_to_complete": 220
+  },
+  {
+    "total_doses_daily": 17937,
+    "date": "03-09-2021",
+    "daily_doses_rolling": 15806,
+    "days_to_complete": 229
+  },
+  {
+    "total_doses_daily": 14044,
+    "date": "03-08-2021",
+    "daily_doses_rolling": 15463,
+    "days_to_complete": 235
+  },
+  {
+    "total_doses_daily": 5849,
+    "date": "03-07-2021",
+    "daily_doses_rolling": 15342,
+    "days_to_complete": 238
+  },
+  {
+    "total_doses_daily": 14321,
+    "date": "03-06-2021",
+    "daily_doses_rolling": 15485,
+    "days_to_complete": 236
+  },
+  {
+    "total_doses_daily": 20363,
+    "date": "03-05-2021",
+    "daily_doses_rolling": 15693,
+    "days_to_complete": 234
+  },
+  {
+    "total_doses_daily": 19032,
+    "date": "03-04-2021",
+    "daily_doses_rolling": 15719,
+    "days_to_complete": 234
+  },
+  {
+    "total_doses_daily": 19095,
+    "date": "03-03-2021",
+    "daily_doses_rolling": 15697,
+    "days_to_complete": 236
+  },
+  {
+    "total_doses_daily": 15538,
+    "date": "03-02-2021",
+    "daily_doses_rolling": 15258,
+    "days_to_complete": 244
+  },
+  {
+    "total_doses_daily": 13196,
+    "date": "03-01-2021",
+    "daily_doses_rolling": 15165,
+    "days_to_complete": 247
+  },
+  {
+    "total_doses_daily": 6851,
+    "date": "02-28-2021",
+    "daily_doses_rolling": 14843,
+    "days_to_complete": 253
+  },
+  {
+    "total_doses_daily": 15775,
+    "date": "02-27-2021",
+    "daily_doses_rolling": 14402,
+    "days_to_complete": 261
+  },
+  {
+    "total_doses_daily": 20545,
+    "date": "02-26-2021",
+    "daily_doses_rolling": 13406,
+    "days_to_complete": 282
+  },
+  {
+    "total_doses_daily": 18879,
+    "date": "02-25-2021",
+    "daily_doses_rolling": 12563,
+    "days_to_complete": 302
+  },
+  {
+    "total_doses_daily": 16024,
+    "date": "02-24-2021",
+    "daily_doses_rolling": 12013,
+    "days_to_complete": 317
+  },
+  {
+    "total_doses_daily": 14888,
+    "date": "02-23-2021",
+    "daily_doses_rolling": 11578,
+    "days_to_complete": 331
+  },
+  {
+    "total_doses_daily": 10940,
+    "date": "02-22-2021",
+    "daily_doses_rolling": 10600,
+    "days_to_complete": 363
+  },
+  {
+    "total_doses_daily": 3766,
+    "date": "02-21-2021",
+    "daily_doses_rolling": 10238,
+    "days_to_complete": 377
+  },
+  {
+    "total_doses_daily": 8799,
+    "date": "02-20-2021",
+    "daily_doses_rolling": 10216,
+    "days_to_complete": 378
+  },
+  {
+    "total_doses_daily": 14644,
+    "date": "02-19-2021",
+    "daily_doses_rolling": 10652,
+    "days_to_complete": 363
+  },
+  {
+    "total_doses_daily": 15032,
+    "date": "02-18-2021",
+    "daily_doses_rolling": 10997,
+    "days_to_complete": 353
+  },
+  {
+    "total_doses_daily": 12976,
+    "date": "02-17-2021",
+    "daily_doses_rolling": 11494,
+    "days_to_complete": 339
+  },
+  {
+    "total_doses_daily": 8044,
+    "date": "02-16-2021",
+    "daily_doses_rolling": 12001,
+    "days_to_complete": 326
+  },
+  {
+    "total_doses_daily": 8404,
+    "date": "02-15-2021",
+    "daily_doses_rolling": 12516,
+    "days_to_complete": 313
+  },
+  {
+    "total_doses_daily": 3615,
+    "date": "02-14-2021",
+    "daily_doses_rolling": 12753,
+    "days_to_complete": 308
+  },
+  {
+    "total_doses_daily": 11852,
+    "date": "02-13-2021",
+    "daily_doses_rolling": 12693,
+    "days_to_complete": 310
+  },
+  {
+    "total_doses_daily": 17059,
+    "date": "02-12-2021",
+    "daily_doses_rolling": 12304,
+    "days_to_complete": 320
+  },
+  {
+    "total_doses_daily": 18509,
+    "date": "02-11-2021",
+    "daily_doses_rolling": 12281,
+    "days_to_complete": 322
+  },
+  {
+    "total_doses_daily": 16526,
+    "date": "02-10-2021",
+    "daily_doses_rolling": 11859,
+    "days_to_complete": 335
+  },
+  {
+    "total_doses_daily": 11650,
+    "date": "02-09-2021",
+    "daily_doses_rolling": 11373,
+    "days_to_complete": 351
+  },
+  {
+    "total_doses_daily": 10057,
+    "date": "02-08-2021",
+    "daily_doses_rolling": 11482,
+    "days_to_complete": 349
+  },
+  {
+    "total_doses_daily": 3196,
+    "date": "02-07-2021",
+    "daily_doses_rolling": 11214,
+    "days_to_complete": 358
+  },
+  {
+    "total_doses_daily": 9134,
+    "date": "02-06-2021",
+    "daily_doses_rolling": 11138,
+    "days_to_complete": 361
+  },
+  {
+    "total_doses_daily": 16895,
+    "date": "02-05-2021",
+    "daily_doses_rolling": 10796,
+    "days_to_complete": 373
+  },
+  {
+    "total_doses_daily": 15552,
+    "date": "02-04-2021",
+    "daily_doses_rolling": 10146,
+    "days_to_complete": 399
+  },
+  {
+    "total_doses_daily": 13126,
+    "date": "02-03-2021",
+    "daily_doses_rolling": 9651,
+    "days_to_complete": 421
+  },
+  {
+    "total_doses_daily": 12413,
+    "date": "02-02-2021",
+    "daily_doses_rolling": 9431,
+    "days_to_complete": 432
+  },
+  {
+    "total_doses_daily": 8180,
+    "date": "02-01-2021",
+    "daily_doses_rolling": 9049,
+    "days_to_complete": 452
+  },
+  {
+    "total_doses_daily": 2663,
+    "date": "01-31-2021",
+    "daily_doses_rolling": 9060,
+    "days_to_complete": 452
+  },
+  {
+    "total_doses_daily": 6740,
+    "date": "01-30-2021",
+    "daily_doses_rolling": 8926,
+    "days_to_complete": 459
+  },
+  {
+    "total_doses_daily": 12350,
+    "date": "01-29-2021",
+    "daily_doses_rolling": 8671,
+    "days_to_complete": 473
+  },
+  {
+    "total_doses_daily": 12088,
+    "date": "01-28-2021",
+    "daily_doses_rolling": 8302,
+    "days_to_complete": 496
+  },
+  {
+    "total_doses_daily": 11586,
+    "date": "01-27-2021",
+    "daily_doses_rolling": 8092,
+    "days_to_complete": 510
+  },
+  {
+    "total_doses_daily": 9738,
+    "date": "01-26-2021",
+    "daily_doses_rolling": 7603,
+    "days_to_complete": 545
+  },
+  {
+    "total_doses_daily": 8255,
+    "date": "01-25-2021",
+    "daily_doses_rolling": 7077,
+    "days_to_complete": 586
+  },
+  {
+    "total_doses_daily": 1726,
+    "date": "01-24-2021",
+    "daily_doses_rolling": 6526,
+    "days_to_complete": 637
+  },
+  {
+    "total_doses_daily": 4955,
+    "date": "01-23-2021",
+    "daily_doses_rolling": 6463,
+    "days_to_complete": 644
+  },
+  {
+    "total_doses_daily": 9765,
+    "date": "01-22-2021",
+    "daily_doses_rolling": 6197,
+    "days_to_complete": 672
+  },
+  {
+    "total_doses_daily": 10617,
+    "date": "01-21-2021",
+    "daily_doses_rolling": 5435,
+    "days_to_complete": 768
+  },
+  {
+    "total_doses_daily": 8168,
+    "date": "01-20-2021",
+    "daily_doses_rolling": 4603,
+    "days_to_complete": 909
+  },
+  {
+    "total_doses_daily": 6052,
+    "date": "01-19-2021",
+    "daily_doses_rolling": 4394,
+    "days_to_complete": 954
+  },
+  {
+    "total_doses_daily": 4397,
+    "date": "01-18-2021",
+    "daily_doses_rolling": 4508,
+    "days_to_complete": 932
+  },
+  {
+    "total_doses_daily": 1286,
+    "date": "01-17-2021",
+    "daily_doses_rolling": 4708,
+    "days_to_complete": 893
+  },
+  {
+    "total_doses_daily": 3094,
+    "date": "01-16-2021",
+    "daily_doses_rolling": 4726,
+    "days_to_complete": 890
+  },
+  {
+    "total_doses_daily": 4431,
+    "date": "01-15-2021",
+    "daily_doses_rolling": 4877,
+    "days_to_complete": 863
+  },
+  {
+    "total_doses_daily": 4790,
+    "date": "01-14-2021",
+    "daily_doses_rolling": 5517,
+    "days_to_complete": 764
+  },
+  {
+    "total_doses_daily": 6707,
+    "date": "01-13-2021",
+    "daily_doses_rolling": 5684,
+    "days_to_complete": 742
+  },
+  {
+    "total_doses_daily": 6851,
+    "date": "01-12-2021",
+    "daily_doses_rolling": 5289,
+    "days_to_complete": 799
+  },
+  {
+    "total_doses_daily": 5794,
+    "date": "01-11-2021",
+    "daily_doses_rolling": 4960,
+    "days_to_complete": 853
+  },
+  {
+    "total_doses_daily": 1417,
+    "date": "01-10-2021",
+    "daily_doses_rolling": 4650,
+    "days_to_complete": 911
+  },
+  {
+    "total_doses_daily": 4150,
+    "date": "01-09-2021",
+    "daily_doses_rolling": 4605,
+    "days_to_complete": 920
+  },
+  {
+    "total_doses_daily": 8913,
+    "date": "01-08-2021",
+    "daily_doses_rolling": 4223,
+    "days_to_complete": 1005
+  },
+  {
+    "total_doses_daily": 5958,
+    "date": "01-07-2021",
+    "daily_doses_rolling": 2974,
+    "days_to_complete": 1430
+  },
+  {
+    "total_doses_daily": 3941,
+    "date": "01-06-2021",
+    "daily_doses_rolling": 2404,
+    "days_to_complete": 1771
+  },
+  {
+    "total_doses_daily": 4545,
+    "date": "01-05-2021",
+    "daily_doses_rolling": 2551,
+    "days_to_complete": 1671
+  },
+  {
+    "total_doses_daily": 3623,
+    "date": "01-04-2021",
+    "daily_doses_rolling": 2475,
+    "days_to_complete": 1724
+  },
+  {
+    "total_doses_daily": 1105,
+    "date": "01-03-2021",
+    "daily_doses_rolling": 2288,
+    "days_to_complete": 1866
+  },
+  {
+    "total_doses_daily": 1477,
+    "date": "01-02-2021",
+    "daily_doses_rolling": 2132,
+    "days_to_complete": 2003
+  },
+  {
+    "total_doses_daily": 166,
+    "date": "01-01-2021",
+    "daily_doses_rolling": 1990,
+    "days_to_complete": 2147
+  },
+  {
+    "total_doses_daily": 1973,
+    "date": "12-31-2020",
+    "daily_doses_rolling": 1967,
+    "days_to_complete": 2172
+  },
+  {
+    "total_doses_daily": 4967,
+    "date": "12-30-2020",
+    "daily_doses_rolling": 1823,
+    "days_to_complete": 2345
+  },
+  {
+    "total_doses_daily": 4013,
+    "date": "12-29-2020",
+    "daily_doses_rolling": 1514,
+    "days_to_complete": 2827
+  },
+  {
+    "total_doses_daily": 2316,
+    "date": "12-28-2020",
+    "daily_doses_rolling": 1462,
+    "days_to_complete": 2930
+  },
+  {
+    "total_doses_daily": 10,
+    "date": "12-27-2020",
+    "daily_doses_rolling": 1757,
+    "days_to_complete": 2439
+  },
+  {
+    "total_doses_daily": 484,
+    "date": "12-26-2020",
+    "daily_doses_rolling": 1889,
+    "days_to_complete": 2269
+  },
+  {
+    "total_doses_daily": 3,
+    "date": "12-25-2020",
+    "daily_doses_rolling": 2310,
+    "days_to_complete": 1856
+  },
+  {
+    "total_doses_daily": 969,
+    "date": "12-24-2020",
+    "daily_doses_rolling": 3128,
+    "days_to_complete": 1370
+  },
+  {
+    "total_doses_daily": 2800,
+    "date": "12-23-2020",
+    "daily_doses_rolling": 3273,
+    "days_to_complete": 1310
+  },
+  {
+    "total_doses_daily": 3653,
+    "date": "12-22-2020",
+    "daily_doses_rolling": 2895,
+    "days_to_complete": 1482
+  },
+  {
+    "total_doses_daily": 4381,
+    "date": "12-21-2020",
+    "daily_doses_rolling": 2376,
+    "days_to_complete": 1807
+  }
+]
