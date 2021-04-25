@@ -112,10 +112,9 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(response => response.json())
         .then(jsonResponse => {
             let json = []
-            let responseLength = Object.keys(jsonResponse).length
-            for(let i = responseLength - 101; i < responseLength - 1; i++){
+            for(let i = 0; i < 100; i++){
                 json.push(jsonResponse[i])
             }
-            makeBarChart(json)
+            makeBarChart(json.reverse())
         })
 });
